@@ -1,0 +1,76 @@
+#title{
+	margin-bottom: 7px;	
+}
+
+#body{
+	background-color: #000000;
+	color: white;
+	margin: 10px;
+	font-family: Arial, sans-serif;
+}
+
+.nav{
+	margin-bottom: 10px;
+}
+
+.title{
+	font-weight: bold;
+}
+
+.sub{
+	margin-bottom: 5px;
+}
+
+.list{
+	margin-bottom:10px;
+}
+
+/* Set the container to flex and arrange items */
+#scale {
+    display: flex;
+    flex-direction: column; /* Arrange child elements vertically */
+    gap: 15px; /* Space between items */
+    margin-bottom: 5px;
+}
+
+/* Flexbox for the select elements, side by side */
+.select-container {
+    display: flex;
+    gap: 20px; /* Space between the select elements */
+    margin-bottom: 2px;
+}
+
+/* Style for the select dropdowns */
+.form-select {
+    padding: 10px;
+/*    width: 150px; /* Adjust width as needed */*/
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the result container */
+.result {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #666666;
+    width: 100%;
+    max-width: 400px; /* Set max width for result box */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+    margin-bottom: 5px;
+}
