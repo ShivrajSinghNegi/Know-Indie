@@ -96,3 +96,33 @@ tr:nth-child(even) {
 	border: 2px solid #ffffff;
 	margin: 20px 0;
 }
+
+#mic{
+	display: block; /* Ensures the image is treated as a block element */
+	margin: 50px auto; /* Auto centers horizontally, and adds space above and below */
+	max-width: 50%; /* Prevents it from overflowing */
+	max-height: 50vh; /* Ensures it fits within the viewport */
+	border-radius: 8px; /* Optional: Adds rounded corners */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+	transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */	
+}
+
+#mic:hover {
+  transform: scale(1.10); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+#piano{
+	display: block;
+	margin: 5px auto;
+	max-width: 20%;
+	max-height: 30vh;
+	border-radius: 6px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#piano:hover{
+	transform: scale(1.05);
+	box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
