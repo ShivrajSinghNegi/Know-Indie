@@ -57,3 +57,42 @@ button:hover {
 li{
 	margin: 5px;
 }
+
+table {
+     margin: 20px auto;
+     border-collapse: collapse;
+     width: 80%;
+     max-width: 600px;
+     background-color: #000;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border-radius: 8px;
+     overflow: hidden;
+   }
+th, td {
+     padding: 12px 15px;
+     text-align: center;
+     border: 1px solid #ddd;
+   }
+th {
+     background-color: #007bff;
+     font-weight: bold;
+     text-align: center !important;
+   }
+tr:nth-child(even) {
+     background-color: #666666;
+   }
+
+.title{
+	font-weight: bold;
+}en) {
+     background-color: #666666;
+   }
+
+#ct{
+	font-weight: bold;
+}
+
+.hr{
+	border: 2px solid #ffffff;
+	margin: 20px 0;
+}
