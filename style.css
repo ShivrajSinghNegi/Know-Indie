@@ -1,8 +1,59 @@
-#body{
+.body{
 	padding:10px;
-	font-family: Arial sans-serif;
+	font-family: sans-serif;
 	background-color: #000000;
 	color: white;
 }
 
+/* Set the container to flex and arrange items */
+#scale {
+    display: flex;
+    flex-direction: column; /* Arrange child elements vertically */
+    gap: 15px; /* Space between items */
+}
 
+/* Flexbox for the select elements, side by side */
+.select-container {
+    display: flex;
+    gap: 20px; /* Space between the select elements */
+}
+
+/* Style for the select dropdowns */
+.form-select {
+    padding: 10px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the result container */
+.result {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #666666;
+/*    width: 100%;*/
+/*    max-width: 400px; /* Set max width for result box */*/
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+}
+
+#showChords{
+	margin-bottom: 2px;
+}
+
+li{
+	margin: 5px;
+}
