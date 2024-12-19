@@ -1,3 +1,3 @@
-Know Indie \n
-https://shivrajsinghnegi.github.io/Know-Indie/ \n
+Know Indie
+https://knowindie.netlify.app/
 click above url to view website
